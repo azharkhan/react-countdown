@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 10rem 2rem;
+}
+
+.countdown {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    color: white;
+}
+
+.statement {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+}
+
+.statement .duration {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.breakdown, .timer {
+    font-variant: small-caps;
+}
+
+.breakdown .number {
+    font-size: 2rem;
+}
+
+.timer .number {
+    font-size: 3rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+    #content {
+        padding: 5rem 0.5rem;
+    }
+    .statement {
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .breakdown {
+        font-size: 0.75rem;
+    }
+
+    .breakdown .number {
+        font-size: 1.5rem;
+    }
+
+    .timer {
+        font-size: 1rem;
+    }
+
+    .timer .number {
+        font-size: 2rem;
+    }
+}
