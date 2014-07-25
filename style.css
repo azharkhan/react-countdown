@@ -13,6 +13,8 @@ html, body {
     height: 100%;
     position: absolute;
     padding: 10rem 2rem;
+    -webkit-transition: background 0.5s ease;
+            transition: background 0.5s ease;
 }
 
 .countdown {
@@ -30,7 +32,7 @@ html, body {
     text-decoration: underline;
 }
 
-.breakdown, .timer {
+.breakdown {
     font-variant: small-caps;
 }
 
